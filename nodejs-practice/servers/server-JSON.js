@@ -23,7 +23,9 @@ const server=http.createServer((req,res)=>{
 
 const PORT=5000;
 
+//THE PORT NUMBER CAN ALSO BE SENT AS AN ARGUMENT DIRECTLY RATHER THAN CREATING A VARIABLE 
 server.listen(PORT,()=>{
   console.log(`Server running at http://localhost:${PORT}`);
   console.log("Click Ctrl+C to stop the server ");
 })
+
