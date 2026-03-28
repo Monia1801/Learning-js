@@ -1,0 +1,15 @@
+{
+  "name": "ejs-guide",
+  "version": "1.0.0",
+  "description": "EJS guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Monia",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1"
+  }
+}
