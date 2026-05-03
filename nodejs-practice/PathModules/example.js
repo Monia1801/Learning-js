@@ -23,10 +23,10 @@ const absPath=path.resolve('test.txt');
 console.log(absPath);
 
 
-//filename
+//current filepath
 console.log(__filename);
 
 
-//dirname
+//current dirpath
 console.log(__dirname);
 
